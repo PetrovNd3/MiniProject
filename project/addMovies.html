@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Movies</title>
+    <header style="padding:20px; text-align:left; background: aqua;">
+    <h1 style="text-align: center;">Add movies</h1>
+    <a href="admin_login.html" style=" color: black">Logout</a>
+    <a href="adminHome.php" style=" color: black">Home</a>
+    </header>
+</head>
+<body>
+    <br><br>
+    <form method="POST" action="add_movies.php">
+        <label for="name">Movie Name: </label>
+        &emsp13;<input type="text" name="movie_name" id="movie_name">
+        <br><br><label for="Rating">Rating: </label>
+        <input type="text" name="rating" id="rating">
+        <br><br><label for="Price">Price: </label>
+        <input type="number" name="price" id="price">
+        <input type="submit" name=submit>
+</body>
+</html>
